@@ -1,4 +1,4 @@
 export * from './questions'
-export * from './User'
-export * from "./Auth";
+export * from './user'
+export * from "./auth";
 export * from "./answers"
