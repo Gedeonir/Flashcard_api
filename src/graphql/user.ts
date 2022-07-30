@@ -54,8 +54,6 @@ definition(t){
         type:"User",
         args:{
             id:nonNull(intArg()),
-            name:nonNull(stringArg()),
-            email:nonNull(stringArg())
         },
 
         async resolve(parent,args,context){

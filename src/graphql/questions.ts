@@ -87,9 +87,6 @@ export const questionMutation = extendType({
             type:"Question",
             args:{
                 id:nonNull(intArg()),
-                question:nonNull(stringArg()),
-                correctAnswer:nonNull(stringArg()),
-                weight:nonNull(stringArg())
             },
 
             async resolve(parent,args,context){
